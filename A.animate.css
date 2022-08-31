@@ -1,4 +1,4 @@
-@font-face{font-family:'icomoon';src:url(fonts/icomoon.eot?6py85u);src:url(fonts/icomoon.eot?6py85u#iefix) format('embedded-opentype') , url(fonts/icomoon.ttf?6py85u) format('truetype') , url(fonts/icomoon.woff?6py85u) format('woff') , url(fonts/icomoon.svg?6py85u#icomoon) format('svg');font-weight:normal;font-style:normal}.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes bounce {
+@font-face{font-family:'icomoon';src:url(./icomoon/Icomoon.eot);src:url(./icomoon/Icomoon.eot?#iefix) format('embedded-opentype') , url(./icomoon/Icomoon.ttf?) format('truetype') , url(./icomoon/Icomoon.woff?) format('woff') , url(./icomoon/Icomoon.svg?#icomoon) format('svg');font-weight:normal;font-style:normal}.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes bounce {
   from, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
