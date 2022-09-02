@@ -70,7 +70,6 @@
 #portfolio-hero .flexslider .slider-text>.slider-text-inner h2{font-size:18px;line-height:1.5;margin-bottom:30px;font-weight:300;font-family:"Quicksand",Arial,sans-serif}
 #portfolio-hero .flexslider .slider-text>.slider-text-inner h2 a{color:rgba(44,152,240,.8);border-bottom:1px solid rgba(44,152,240,.7)}
 #portfolio-hero .flexslider .slider-text>.slider-text-inner p{margin-bottom:0}
-#portfolio-hero .flexslider .slider-text>.slider-text-inner .btn{font-size:12px;text-transform:uppercase;letter-spacing:2px;color:#000;padding:10px 15px!important;border:none;font-weight:400}
 #portfolio-hero .flexslider .slider-text>.slider-text-inner .btn.btn-learn{color:#000;border:1px solid #000;background:transparent!important}
 #portfolio-hero .flexslider .slider-text>.slider-text-inner .btn.btn-learn:hover{background:transparent!important;border:1px solid #000!important}@media screen and (max-width:768px){#portfolio-hero .flexslider .slider-text>.slider-text-inner .btn{width:100%}}body.offcanvas{overflow-x:hidden}
 body.offcanvas #portfolio-aside{-moz-transform:translateX(0);-webkit-transform:translateX(0);-ms-transform:translateX(0);-o-transform:translateX(0);transform:translateX(0);width:300px;background:#f2f3f7;z-index:999;position:fixed}
@@ -78,13 +77,15 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .container-wrap{max-width:1170px;margin:0 auto}
 .portfolio-narrow-content{padding:0 2.5em}@media screen and (max-width:768px){.portfolio-narrow-content{padding:0}}
 .portfolio-experience,.portfolio-skills,.portfolio-education,.portfolio-work,.portfolio-about,
-.portfolio-contact{padding-top:3em;padding-bottom:23em;clear:both;width:100%;display:block}@media screen and (max-width:768px){.portfolio-experience,.portfolio-skills,.portfolio-education,.portfolio-work,.portfolio-about,.portfolio-contact{padding-top:5em;padding-bottom:8em}}
+.portfolio-contact{padding-top:3em;padding-bottom:23em;padding-left:50px;padding-right:30px;clear:both;width:100%;display:block}@media screen and (max-width:768px){.portfolio-experience,.portfolio-skills,.portfolio-education,.portfolio-work,.portfolio-about,.portfolio-contact{padding-top:5em;padding-bottom:8em}}
 .author-img{background-size:cover;background-position:center center;background-repeat:no-repeat;position:relative}
-.portfolio-heading{font-size:18px;margin-bottom:4em;font-weight:700;text-transform:uppercase;letter-spacing:5px;line-height:1.8;position:relative}
+.portfolio-heading{font-size:25px;margin-bottom:4em;font-weight:700;text-transform:uppercase;letter-spacing:5px;line-height:1.8;position:relative}
 .portfolio-heading span{display:block}@media screen and (max-width:768px){.portfolio-heading{margin-bottom:3em}}
 .heading-meta{margin-bottom:15px;display:block;font-size:10px;text-transform:uppercase;color:#999;font-weight:500;letter-spacing:5px}
 .about-desc h3{font-size:18px;text-transform:uppercase;letter-spacing:5px;font-weight:500}
-.hire{background:#f9bf3f; color:#fff;letter-spacing:2px;border:1px solid #000;padding:10px 10px}
+.hire{ color:#000;letter-spacing:2px;text-transform:uppercase;font-weight:bold} 
+.hire-a{border:2px solid #000;padding:10px 10px;margin-right:480px;background:#fff;}     
+.hire-a:hover{background: #e3ee18;}
 .fancy-collapse-panel .panel-default>.panel-heading{padding:0}
 .panel-heading a{padding:20px 25px;display:block;width:100%;font-weight:500;font-size:14px;letter-spacing:1px;text-transform:uppercase;font-family:"Quicksand",Arial,sans-serif;background-color:#2c98f0;color:#fff;position:relative;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;-ms-box-shadow:none!important;-o-box-shadow:none!important;box-shadow:none!important}
 .panel{-webkit-box-shadow:none!important;-moz-box-shadow:none!important;-ms-box-shadow:none!important;-o-box-shadow:none!important;box-shadow:none!important;border:none}
@@ -121,12 +122,12 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .progress-bar.color-5{background:#2fa499}.progress-bar.color-5:after{background:#2fa499}
 .progress-bar.color-5 span{color:#2fa499}.progress-bar.color-6{background:#4054b2}
 .progress-bar.color-6:after{background:#4054b2}.progress-bar.color-6 span{color:#4054b2}
-.portfolio-feature{text-align:left;width:100%;float:left;margin-bottom:40px;position:relative}
+.portfolio-feature{text-align:left;width:100%;float:left;margin-bottom:0px;position:relative}
 .portfolio-feature .portfolio-icon{position:absolute;top:0;left:0;width:50px;height:50px;display:table;text-align:center;background:#f2f3f7;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;border-radius:2px}
 .portfolio-feature .portfolio-icon i{display:table-cell;vertical-align:middle;color:#2c98f0;font-size:60px;height:100px}@media screen and (max-width:1200px){.portfolio-feature .portfolio-icon i{font-size:40px}}
-.portfolio-feature .portfolio-text{padding-left:120px;width:100%}.portfolio-feature .portfolio-text h2,.portfolio-feature .portfolio-text h3{margin:0;padding:0}
+.portfolio-feature .portfolio-text{color:#fff;padding-left:0px;padding-right:30px;font-size:20px;width:100%}.portfolio-feature .portfolio-text h2,.portfolio-feature .portfolio-text h3{margin:0;padding:0}
 .portfolio-feature .portfolio-text h3{font-weight:500;margin-bottom:20px;color:rgba(0,0,0,.7);font-size:14px;letter-spacing:3px;text-transform:uppercase}
-.portfolio-feature.portfolio-feature-sm .portfolio-text{margin-top:30px}
+.portfolio-feature.portfolio-feature-sm .portfolio-text{margin-top:10px}
 .portfolio-feature.portfolio-feature-sm .portfolio-icon i{color:#2c98f0;font-size:40px}@media screen and (max-width:1200px){.portfolio-feature.portfolio-feature-sm .portfolio-icon i{font-size:28px}}
 .blog-entry{width:100%;float:left;background:#fff;margin-bottom:3em}@media screen and (max-width:768px){.blog-entry{margin-bottom:3em}}
 .blog-entry .blog-img{width:100%;float:left;overflow:hidden;position:relative;z-index:1;margin-bottom:25px}.blog-entry 
@@ -134,7 +135,7 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .blog-entry .desc h3{font-size:16px;margin-bottom:25px;line-height:auto;font-weight:500;text-transform:uppercase;letter-spacing:1px;font-family:"Quicksand",Arial,sans-serif}
 .blog-entry .desc h3 a{color:#000;text-decoration:none}.blog-entry .desc span{display:block;margin-bottom:20px;font-size:12px;color:rgba(0,0,0,.4)!important;text-transform:uppercase;letter-spacing:1px;font-weight:400}.blog-entry .desc span small i{color:#999}.blog-entry:hover .blog-img img{-webkit-transform:scale(1.1);-moz-transform:scale(1.1);-ms-transform:scale(1.1);-o-transform:scale(1.1);transform:scale(1.1)}
 .work-menu span{margin-left:10px}.work-menu span:first-child{margin-left:0}.work-menu span a{color:#000}.work-menu span a.active{color:#2c98f0}
-.project{background-size:cover;background-position:center center;background-repeat:no-repeat;position:relative;height:300px;width:100%;display:block;margin-bottom:30px}
+.project{background-size:cover;background-position:center center;background-repeat:no-repeat;position:relative;height:300px;width:95%;display:block;margin-bottom:30px}
 .project .desc{position:absolute;top:0;bottom:0;left:0;right:0;background:#2c98f0;opacity:0;-webkit-transition:.3s;-o-transition:.3s;transition:.3s}
 .project .desc .con{padding:20px;display:block;position:relative;height:300px}.project .desc .con .icon{position:absolute;bottom:20px;left:20px;right:20px}
 .project .desc .con .icon span{display:inline;padding-right:5px}.project .desc .con .icon span a{color:#333;padding:5px;background:rgba(255,255,255,.5);-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;border-radius:4px}
@@ -149,7 +150,6 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .portfolio-counters .portfolio-counter{font-size:40px;display:block;color:#fff;font-family:"Quicksand",Arial,sans-serif;width:100%;font-weight:700;margin-bottom:.3em}.portfolio-counters .portfolio-counter-label{color:rgba(255,255,255,.7);text-transform:uppercase;font-size:14px;letter-spacing:5px;margin-bottom:2em;display:block}
 #map{width:100%;height:700px}@media screen and (max-width:768px){#map{height:200px}}.btn{margin-right:4px;margin-bottom:4px;font-family:"Quicksand",Arial,sans-serif;font-size:12px;font-weight:400;text-transform:uppercase;letter-spacing:1px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;border-radius:2px;-webkit-transition:.5s;-o-transition:.5s;transition:.5s;padding:8px 15px!important}
 .btn.btn-lg{padding:18px 36px!important}.btn:hover,.btn:active,.btn:focus{-webkit-box-shadow:none!important;box-shadow:none!important;outline:none!important}
-.btn-primary{background:#2c98f0;color:#fff;border:2px solid #2c98f0}.btn-primary:hover,.btn-primary:focus,.btn-primary:active{background:#44a4f2!important;border-color:#44a4f2!important}
 .form-control{-webkit-appearance:none;-moz-appearance:none;appearance:none;-webkit-box-shadow:none;box-shadow:none;background:transparent;border:transparent;background:#f2f3f7;height:54px;font-size:16px;font-weight:400;-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;border-radius:0}.form-control:active,
 .form-control:focus{outline:none;-webkit-box-shadow:none;box-shadow:none;border-color:transparent;background:#f0f0f0}#message{height:130px}.portfolio-nav-toggle{cursor:pointer;text-decoration:none}
 .portfolio-nav-toggle.active i::before,.portfolio-nav-toggle.active i::after{background:#000}
@@ -180,7 +180,7 @@ span.htmlBarRating {
     color: #e74c3c;
     position: absolute;
     top: 10px;
-    left: 82%;
+    left: 78%;
     font-size: 12px;
     font-weight: bold;
 }
@@ -190,29 +190,29 @@ span.htmlBarRating {
 }
 .html-progress {
     background: #e74c3c;
-    width: 85%;
+    width: 80%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 .html-progress:after {
     background: #e74c3c;
-    left:84%;
+    left:80%;
 }
 .css-progress {
     background: #f9bf3f;
-    width: 65%;
+    width: 70%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 .css-progress:after {
     background: #f9bf3f;
-    left:65%;
+    left:70%;
 }
 span.cssBarRating {
     color: #f9bf3f;
     position: absolute;
     top: 10px;
-    left: 63%;
+    left: 68%;
     font-size: 12px;
     font-weight: bold;
 }
@@ -235,5 +235,43 @@ span.javascriptBarRating {
     font-weight: bold;
 }
 .text-shadow{text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;}
-.icon-phone{width: 50px;height: 50px;padding: 10px;}
+.icon-phone{width: 70px;height: 70px;padding: 10px;}
 .text{font-size:18px}
+.contacts-flex{
+    display:flex;
+    flex:wrap;
+}
+.contact-text{
+    font-size:20px;
+    padding-left:10px;
+    color:#fff;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.contact1{
+    display:flex;
+    flex-direction:row
+}
+.contact1-1{
+    background-color:#44a4f2;
+    border:2px solid #fff;
+}
+.contact1-2{
+    background:#44a4f2;
+    padding:10px 15px;
+    border:2px solid #fff;
+    margin-left:40px
+}
+.contact2{
+    display:flex;
+    flex-direction:row;
+    padding:10px;
+    margin-top:50px;
+}
+.contact2-1{
+    padding-top:20px ;
+    padding-right:85px;
+}
+.icon-download{
+    width: 50px;height: 50px;padding: 10px;}
+}
