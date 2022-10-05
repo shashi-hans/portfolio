@@ -170,6 +170,26 @@
                     </div>
                   </div>
                 </div>
+                <div>
+                  <div class="progress-wrap">
+                    <h3>React JS</h3>
+                    <div class="progressBarDiv">
+                      <span id="bar4" class="progressBar skill-span ">
+                        <span class="reactBarRating ">40%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="progress-wrap">
+                    <h3>Node JS, Express JS, Mongo DB</h3>
+                    <div class="progressBarDiv">
+                      <span id="bar5" class="progressBar skill-span ">
+                        <span class="nodejsBarRating ">30%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -189,7 +209,7 @@
                   <div class="fancy-collapse-panel">
                     <div class="panel-group" id="accordion" role="tablist"
                       aria-multiselectable="true">
-                      <div class="panel panel-default">
+                      <!-- <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingOne">
                           <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion"
@@ -211,8 +231,8 @@
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <div class="panel panel-default">
+                      </div> -->
+                      <!-- <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingTwo">
                           <h4 class="panel-title">
                             <a class="collapsed" data-toggle="collapse"
@@ -230,7 +250,7 @@
                               CSS</p>
                           </div>
                         </div>
-                      </div>
+                      </div> -->
                       <div class="panel panel-default">
                         <div class="panel-heading" role="tab" id="headingThree">
                           <h4 class="panel-title">
@@ -472,6 +492,8 @@
             document.getElementById("bar1").classList.add("html-progress");
             document.getElementById("bar2").classList.add("css-progress");
             document.getElementById("bar3").classList.add("javascript-progress");
+            document.getElementById("bar4").classList.add("react-progress");
+            document.getElementById("bar5").classList.add("nodejs-progress");
           }else{ 
             document.getElementById("skillSection1").classList.remove("animate-box" ,"fadeInUp" ,"animated");
             document.getElementById("skillSection2").classList.remove("animate-box","fadeInLeft", "animated");
@@ -479,6 +501,8 @@
             document.getElementById("bar1").classList.remove("html-progress");
             document.getElementById("bar2").classList.remove("css-progress");
             document.getElementById("bar3").classList.remove("javascript-progress");
+            document.getElementById("bar4").classList.remove("react-progress");
+            document.getElementById("bar5").classList.remove("nodejs-progress");
           }
       // education section
           if (scrollY > educationTop && scrollY < educationBottom ) {

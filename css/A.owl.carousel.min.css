@@ -234,6 +234,42 @@ span.javascriptBarRating {
     font-size: 12px;
     font-weight: bold;
 }
+.react-progress {
+    background: #00D8FF;
+    width: 40%;
+    -moz-animation: progressBar 2s ease;
+    -webkit-animation: progressBar 3s ease;
+}
+.react-progress:after {
+    background: #00D8FF;
+    left:40%;
+}
+span.reactBarRating {
+    color: #00D8FF;
+    position: absolute;
+    top: 10px;
+    left: 38%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nodejs-progress {
+    background: #4F9B3E;
+    width: 30%;
+    -moz-animation: progressBar 2s ease;
+    -webkit-animation: progressBar 3s ease;
+}
+.nodejs-progress:after {
+    background: #4F9B3E;
+    left:30%;
+}
+span.nodejsBarRating {
+    color: #4F9B3E;
+    position: absolute;
+    top: 10px;
+    left: 28%;
+    font-size: 12px;
+    font-weight: bold;
+}
 .text-shadow{text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;}
 .icon-phone{width: 70px;height: 70px;padding: 10px;}
 .text{font-size:18px}
