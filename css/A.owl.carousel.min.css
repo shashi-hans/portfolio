@@ -84,8 +84,8 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .heading-meta{margin-bottom:15px;display:block;font-size:10px;text-transform:uppercase;color:#999;font-weight:500;letter-spacing:5px}
 .about-desc h3{font-size:18px;text-transform:uppercase;letter-spacing:5px;font-weight:500}
 .hire{ color:#000;letter-spacing:2px;text-transform:uppercase;font-weight:bold} 
-.hire-a{border:2px solid #000;padding:10px 10px;margin-right:480px;background:#fff;}     
-.hire-a:hover{background: #e3ee18;}
+.hire-a{border:2px solid #000;padding:10px 10px;display: inline-block;;background:#fff;}     
+.hire-a:hover{background: #e3ee18;} @media screen and (max-width:992px){.hire-a{background:lightgreen}}
 .fancy-collapse-panel .panel-default>.panel-heading{padding:0}
 .panel-heading a{padding:20px 25px;display:block;width:100%;font-weight:500;font-size:14px;letter-spacing:1px;text-transform:uppercase;font-family:"Quicksand",Arial,sans-serif;background-color:#2c98f0;color:#fff;position:relative;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;-ms-box-shadow:none!important;-o-box-shadow:none!important;box-shadow:none!important}
 .panel{-webkit-box-shadow:none!important;-moz-box-shadow:none!important;-ms-box-shadow:none!important;-o-box-shadow:none!important;box-shadow:none!important;border:none}

@@ -5,7 +5,6 @@ let i=1;
     let interval = setInterval(animation, 3000);
 
     function animation(){
-        console.log("Animation")
         if((i%2) == 1){
             document.querySelectorAll("#portfolio-hero li")[0].style.opacity="0"
             document.querySelectorAll("#portfolio-hero li")[0].style.zIndex="1"
