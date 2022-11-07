@@ -34,7 +34,7 @@
 .owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#d6d6d6;display:block;-webkit-backface-visibility:visible;-webkit-transition:opacity 200ms ease;-moz-transition:opacity 200ms ease;-ms-transition:opacity 200ms ease;-o-transition:opacity 200ms ease;transition:opacity 200ms ease;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}
 .owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}body{font-family:"Quicksand",Arial,sans-serif;font-weight:400;font-size:15px;line-height:1.8;color:rgba(0,0,0,.7)}
 @media screen and (max-width:992px){body{font-size:16px}}a{color:#2c98f0;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}a:hover,a:active,a:focus{color:#2c98f0;outline:none;text-decoration:none!important}p{margin-bottom:1.5em}h1,h2,h3,h4,h5,h6{color:#000;font-family:"Playfair Display",Georgia,serif;font-weight:400;margin:0 0 30px 0}figure{margin-bottom:2.5em;float:left;width:100%}figure figcaption{font-size:16px;width:80%;margin:20px auto 0 auto;color:#b3b3b3;font-style:italic;font-family:"Quicksand",Arial,sans-serif}
-@media screen and (max-width:480px){figure figcaption{width:100%}}::selection{color:#fff;background:#2c98f0}
+@media screen and (max-width:480px){figure figcaption{width:100%}}::selection{color:#fff;opacity: 0.5}
 #portfolio-page{width:100%;overflow:hidden;position:absolute}
 #portfolio-aside{padding-top:2em;padding-bottom:50px;float:left;width:300px;position:fixed;overflow-y:auto;z-index:1001;background:#f2f3f7;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}@media screen and (max-width:768px){#portfolio-aside{width:300px;-moz-transform:translateX(-300px);-webkit-transform:translateX(-300px);-ms-transform:translateX(-300px);-o-transform:translateX(-300px);transform:translateX(-300px);padding-top:4em}}
 #portfolio-aside .author-img{width:150px;height:150px;margin:0 auto;margin-bottom:30px;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%}
@@ -162,7 +162,7 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .portfolio-nav-toggle.active i::after{bottom:0;-webkit-transform:rotateZ(-45deg);-moz-transform:rotateZ(-45deg);-ms-transform:rotateZ(-45deg);-o-transform:rotateZ(-45deg);transform:rotateZ(-45deg)}
 .portfolio-nav-toggle{position:fixed;left:-5px;top:0;z-index:9999;cursor:pointer;opacity:1;visibility:hidden;padding:20px;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}@media screen and (max-width:768px){.portfolio-nav-toggle{opacity:1;visibility:visible}}
 .row-bottom-padded-sm{padding-bottom:1em}@media screen and (max-width:768px){.row-bottom-padded-sm{padding-bottom:1em}}
-.row-pt-md{padding-top:3em}.js .animate-box{opacity:0}
+.row-pt-md{padding-top:3em}.js .animate-box{opacity:0.5}
 .skill-div {position: relative;margin-bottom: 20px;border: 1px solid #bdc3c7;height: 42px;width: 200px;border-radius: 3px;overflow: hidden;} @keyframes progressBar {0% {opacity: 0;-webkit-transform: translate3d(-100%, 0, 0);transform: translate3d(-100%, 0, 0);}100% {opacity: 1;-webkit-transform: none;transform: none;}}
 .skill-span {display: inline-block;height: 6px;} 
 .progressBar:after {
