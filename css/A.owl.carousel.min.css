@@ -237,37 +237,37 @@ span.javascriptBarRating {
 }
 .react-progress {
     background: #00D8FF;
-    width: 40%;
+    width: 30%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 .react-progress:after {
     background: #00D8FF;
-    left:40%;
+    left:30%;
 }
 span.reactBarRating {
     color: #00D8FF;
     position: absolute;
     top: 10px;
-    left: 38%;
+    left: 28%;
     font-size: 12px;
     font-weight: bold;
 }
 .nodejs-progress {
     background: #4F9B3E;
-    width: 30%;
+    width: 20%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 .nodejs-progress:after {
     background: #4F9B3E;
-    left:30%;
+    left:20%;
 }
 span.nodejsBarRating {
     color: #4F9B3E;
     position: absolute;
     top: 10px;
-    left: 28%;
+    left: 18%;
     font-size: 12px;
     font-weight: bold;
 }

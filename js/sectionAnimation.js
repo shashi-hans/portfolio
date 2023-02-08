@@ -73,11 +73,13 @@ function sectionAnimation(){
       document.getElementById("workSection2").classList.add("animate-box" ,"fadeInUp", "animated"); 
       document.getElementById("workSection3").classList.add("animate-box", "fadeInLeft", "animated");
       document.getElementById("workSection4").classList.add("animate-box", "fadeInRight", "animated");
+      document.getElementById("workSection5").classList.add("animate-box", "fadeInLeft", "animated");
     }else{ 
         document.getElementById("workSection1").classList.remove("animate-box", "fadeInLeft", "animated");
       document.getElementById("workSection2").classList.remove("animate-box", "fadeInUp", "animated");
       document.getElementById("workSection3").classList.remove("animate-box", "fadeInLeft", "animated");
       document.getElementById("workSection4").classList.remove("animate-box", "fadeInRight", "animated");
+      document.getElementById("workSection5").classList.remove("animate-box", "fadeInLeft", "animated");
     }
 // contact section
     if (scrollY > contactTop && scrollY < contactBottom ) {
