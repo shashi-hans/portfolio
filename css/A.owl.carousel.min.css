@@ -84,8 +84,8 @@ body.offcanvas #portfolio-main,body.offcanvas .portfolio-nav-toggle{top:0;-moz-t
 .heading-meta{margin-bottom:15px;display:block;font-size:10px;text-transform:uppercase;color:#999;font-weight:500;letter-spacing:5px}
 .about-desc h3{font-size:18px;text-transform:uppercase;letter-spacing:5px;font-weight:500}
 .hire{ color:#000;letter-spacing:2px;text-transform:uppercase;font-weight:bold} 
-.hire-a{border:2px solid #000;padding:10px 10px;display: inline-block;;background:#fff;}     
-.hire-a:hover{background: #e3ee18;} @media screen and (max-width:992px){.hire-a{background:lightgreen}}
+.hire-a{border:2px solid #000;border-radius:10px;padding:10px 10px;display: inline-block;;background:#fff;}     
+.hire-a:hover{background: #FBF805;} @media screen and (max-width:992px){.hire-a{background:lightgreen}}
 .fancy-collapse-panel .panel-default>.panel-heading{padding:0}
 .panel-heading a{padding:20px 25px;display:block;width:100%;font-weight:500;font-size:14px;letter-spacing:1px;text-transform:uppercase;font-family:"Quicksand",Arial,sans-serif;background-color:#2c98f0;color:#fff;position:relative;-webkit-box-shadow:none!important;-moz-box-shadow:none!important;-ms-box-shadow:none!important;-o-box-shadow:none!important;box-shadow:none!important}
 .panel{-webkit-box-shadow:none!important;-moz-box-shadow:none!important;-ms-box-shadow:none!important;-o-box-shadow:none!important;box-shadow:none!important;border:none}
@@ -254,20 +254,38 @@ span.reactBarRating {
     font-weight: bold;
 }
 .nodejs-progress {
-    background: #4F9B3E;
+    background: #CA34FB;
     width: 20%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 .nodejs-progress:after {
-    background: #4F9B3E;
+    background: #CA34FB;
     left:20%;
 }
 span.nodejsBarRating {
-    color: #4F9B3E;
+    color: #CA34FB;
     position: absolute;
     top: 10px;
     left: 18%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.oop-progress {
+    background: #4F9B3E;
+    width: 10%;
+    -moz-animation: progressBar 2s ease;
+    -webkit-animation: progressBar 3s ease;
+}
+.oop-progress:after {
+    background: #4F9B3E;
+    left:10%;
+}
+span.oopBarRating {
+    color: #4F9B3E;
+    position: absolute;
+    top: 10px;
+    left: 8%;
     font-size: 12px;
     font-weight: bold;
 }

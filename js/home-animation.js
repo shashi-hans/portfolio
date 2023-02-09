@@ -64,21 +64,22 @@ let i=1;
         if (scrollY > skillTop && scrollY < skillBottom ) {
           document.getElementById("skillSection1").classList.add("animate-box", "fadeInUp", "animated");
           document.getElementById("skillSection2").classList.add("animate-box","fadeInLeft", "animated");
-          // progress bar 
+          // skill progress bar 
           document.getElementById("bar1").classList.add("html-progress");
           document.getElementById("bar2").classList.add("css-progress");
           document.getElementById("bar3").classList.add("javascript-progress");
           document.getElementById("bar4").classList.add("react-progress");
           document.getElementById("bar5").classList.add("nodejs-progress");
+          document.getElementById("bar6").classList.add("oop-progress");
         }else{ 
           document.getElementById("skillSection1").classList.remove("animate-box" ,"fadeInUp" ,"animated");
           document.getElementById("skillSection2").classList.remove("animate-box","fadeInLeft", "animated");
-          // skill progress bar
           document.getElementById("bar1").classList.remove("html-progress");
           document.getElementById("bar2").classList.remove("css-progress");
           document.getElementById("bar3").classList.remove("javascript-progress");
           document.getElementById("bar4").classList.remove("react-progress");
           document.getElementById("bar5").classList.remove("nodejs-progress");
+          document.getElementById("bar6").classList.remove("oop-progress");
         }
     // education section
         if (scrollY > educationTop && scrollY < educationBottom ) {

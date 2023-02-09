@@ -7,6 +7,9 @@
     canvas {
       margin-left: 120px;
     }
+    h3{
+      padding-left: 130px;
+    }
     button {
       border: 1px solid;
       padding: 10px 20px;
@@ -19,14 +22,15 @@
     }
   </style>
   <body>
-    <h1>Bubbles App</h1>
+    <h1>Bubbles App using Canvas Js</h1>
     <canvas
       id="bubbleCanvas"
       width="1300"
       height="530"
-      style="border: 3px solid #000000"
+      style="border: 3px solid #232020"
     ></canvas
     ><br />
+    <h3 >Click on coloured bubbles to hit it with arrow</h3>
     <button onclick="reset()">Reset</button>
     <script>
       var bubbleCanvas = document.getElementById("bubbleCanvas");
