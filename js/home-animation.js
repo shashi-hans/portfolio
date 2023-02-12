@@ -27,7 +27,7 @@ let i=1;
             slide0.querySelector(".slider-text").classList.add("animated" ,"fadeInUp")
         }
         i++;
-        if(i===5){
+        if(i===6){
             clearInterval(interval);
         }
     }
@@ -35,23 +35,23 @@ let i=1;
 
 
     function sectionAnimation(){
-        let aboutTop = document.querySelector(".portfolio-about").offsetTop-100
-        let aboutBottom= aboutTop + document.querySelector(".portfolio-about").offsetHeight
+        let aboutTop = document.querySelector(".portfolio-about").offsetTop-100;
+        let aboutBottom= aboutTop + document.querySelector(".portfolio-about").offsetHeight;
     
-        let skillTop= document.querySelector(".portfolio-skills").offsetTop - 100
-        let skillBottom= skillTop + document.querySelector(".portfolio-skills").offsetHeight
+        let skillTop= document.querySelector(".portfolio-skills").offsetTop - 100;
+        let skillBottom= skillTop + document.querySelector(".portfolio-skills").offsetHeight;
     
-        let educationTop = document.querySelector(".portfolio-education").offsetTop-100
-        let educationBottom= educationTop + document.querySelector(".portfolio-education").offsetHeight
+        let educationTop = document.querySelector(".portfolio-education").offsetTop-100;
+        let educationBottom= educationTop + document.querySelector(".portfolio-education").offsetHeight;
     
-        let experienceTop= document.querySelector(".portfolio-experience").offsetTop - 100
-        let experienceBottom= experienceTop + document.querySelector(".portfolio-experience").offsetHeight
+        let experienceTop= document.querySelector(".portfolio-experience").offsetTop - 100;
+        let experienceBottom= experienceTop + document.querySelector(".portfolio-experience").offsetHeight;
     
-        let workTop = document.querySelector(".portfolio-work").offsetTop-100
-        let workBottom= workTop + document.querySelector(".portfolio-work").offsetHeight
+        let workTop = document.querySelector(".portfolio-work").offsetTop-100;
+        let workBottom= workTop + document.querySelector(".portfolio-work").offsetHeight;
     
-        let contactTop = document.querySelector(".portfolio-contact").offsetTop-100
-        let contactBottom= contactTop + document.querySelector(".portfolio-contact").offsetHeight
+        let contactTop = document.querySelector(".portfolio-contact").offsetTop-100;
+        let contactBottom= contactTop + document.querySelector(".portfolio-contact").offsetHeight;
     // about section
         if (scrollY > aboutTop && scrollY < aboutBottom ) {
           document.getElementById("aboutSection1").classList.add("animate-box", "fadeInLeft", "animated");
@@ -60,6 +60,7 @@ let i=1;
           document.getElementById("aboutSection1").classList.remove("animate-box", "fadeInLeft", "animated") ;
           document.getElementById("aboutSection2").classList.remove("animate-box" ,"fadeInUp" ,"animated");
         }
+
     // skill section
         if (scrollY > skillTop && scrollY < skillBottom ) {
           document.getElementById("skillSection1").classList.add("animate-box", "fadeInUp", "animated");
@@ -70,7 +71,6 @@ let i=1;
           document.getElementById("bar3").classList.add("javascript-progress");
           document.getElementById("bar4").classList.add("react-progress");
           document.getElementById("bar5").classList.add("nodejs-progress");
-          document.getElementById("bar6").classList.add("oop-progress");
         }else{ 
           document.getElementById("skillSection1").classList.remove("animate-box" ,"fadeInUp" ,"animated");
           document.getElementById("skillSection2").classList.remove("animate-box","fadeInLeft", "animated");
@@ -79,7 +79,6 @@ let i=1;
           document.getElementById("bar3").classList.remove("javascript-progress");
           document.getElementById("bar4").classList.remove("react-progress");
           document.getElementById("bar5").classList.remove("nodejs-progress");
-          document.getElementById("bar6").classList.remove("oop-progress");
         }
     // education section
         if (scrollY > educationTop && scrollY < educationBottom ) {
