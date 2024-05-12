@@ -97,6 +97,4 @@ function sectionAnimation(){
         document.getElementById("contactSection4").classList.remove("animate-box", "fadeInUp", "animated");
     }
   }
- //onscroll = sectionAnimation;
-// window.addEventListener("onscroll",sectionAnimation)
 document.addEventListener("scroll",sectionAnimation)

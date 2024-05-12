@@ -1739,7 +1739,7 @@ span.htmlBarRating {
     color: #e74c3c;
     position: absolute;
     top: 10px;
-    left: 73%;
+    left: 50%;
     font-size: 12px;
     font-weight: bold;
 }
@@ -1751,54 +1751,54 @@ span.htmlBarRating {
 
 .html-progress {
     background: #e74c3c;
-    width: 75%;
+    width: 50%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 
 .html-progress:after {
     background: #e74c3c;
-    left: 75%;
+    left: 50%;
 }
 
 .css-progress {
     background: #f9bf3f;
-    width: 70%;
+    width: 50%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 
 .css-progress:after {
     background: #f9bf3f;
-    left: 70%;
+    left: 50%;
 }
 
 span.cssBarRating {
     color: #f9bf3f;
     position: absolute;
     top: 10px;
-    left: 68%;
+    left: 50%;
     font-size: 12px;
     font-weight: bold;
 }
 
 .javascript-progress {
     background: #2fa499;
-    width: 75%;
+    width: 50%;
     -moz-animation: progressBar 2s ease;
     -webkit-animation: progressBar 3s ease;
 }
 
 .javascript-progress:after {
     background: #2fa499;
-    left: 75%;
+    left: 50%;
 }
 
 span.javascriptBarRating {
     color: #2fa499;
     position: absolute;
     top: 10px;
-    left: 73%;
+    left: 50%;
     font-size: 12px;
     font-weight: bold;
 }
