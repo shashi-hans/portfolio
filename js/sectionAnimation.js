@@ -1,21 +1,21 @@
 function sectionAnimation(){
     console.log("sectionAnimation WORKING")
-    let aboutTop = document.querySelector(".portfolio-about").offsetTop-100
+    let aboutTop = document.querySelector(".portfolio-about").offsetTop-80
     let aboutBottom= aboutTop + document.querySelector(".portfolio-about").offsetHeight
 
-    let skillTop= document.querySelector(".portfolio-skills").offsetTop - 100
+    let skillTop= document.querySelector(".portfolio-skills").offsetTop - 80
     let skillBottom= skillTop + document.querySelector(".portfolio-skills").offsetHeight
 
-    let educationTop = document.querySelector(".portfolio-education").offsetTop-100
+    let educationTop = document.querySelector(".portfolio-education").offsetTop-80
     let educationBottom= educationTop + document.querySelector(".portfolio-education").offsetHeight
 
-    let experienceTop= document.querySelector(".portfolio-experience").offsetTop - 100
+    let experienceTop= document.querySelector(".portfolio-experience").offsetTop - 80
     let experienceBottom= experienceTop + document.querySelector(".portfolio-experience").offsetHeight
 
-    let workTop = document.querySelector(".portfolio-work").offsetTop-100
+    let workTop = document.querySelector(".portfolio-work").offsetTop-80
     let workBottom= workTop + document.querySelector(".portfolio-work").offsetHeight
 
-    let contactTop = document.querySelector(".portfolio-contact").offsetTop-100
+    let contactTop = document.querySelector(".portfolio-contact").offsetTop-80
     let contactBottom= contactTop + document.querySelector(".portfolio-contact").offsetHeight
 // about section
     if (scrollY > aboutTop && scrollY < aboutBottom ) {
@@ -74,12 +74,14 @@ function sectionAnimation(){
       document.getElementById("workSection3").classList.add("animate-box", "fadeInLeft", "animated");
       document.getElementById("workSection4").classList.add("animate-box", "fadeInRight", "animated");
       document.getElementById("workSection5").classList.add("animate-box", "fadeInLeft", "animated");
+      document.getElementById("workSection6").classList.add("animate-box", "fadeInRight", "animated");
     }else{ 
         document.getElementById("workSection1").classList.remove("animate-box", "fadeInLeft", "animated");
       document.getElementById("workSection2").classList.remove("animate-box", "fadeInUp", "animated");
       document.getElementById("workSection3").classList.remove("animate-box", "fadeInLeft", "animated");
       document.getElementById("workSection4").classList.remove("animate-box", "fadeInRight", "animated");
       document.getElementById("workSection5").classList.remove("animate-box", "fadeInLeft", "animated");
+      document.getElementById("workSection6").classList.remove("animate-box", "fadeInRight", "animated");
     }
 // contact section
     if (scrollY > contactTop && scrollY < contactBottom ) {
